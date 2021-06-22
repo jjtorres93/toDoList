@@ -7,8 +7,6 @@
   <title>Index</title>
 </head>
 <body>
-  @foreach (tasks as task)
-    echo "<div>task</div>"
-  @endforeach
+  <?php  ?>
 </body>
 </html>
