@@ -9,7 +9,7 @@
 
 ## About To Do List
 
-To Do List is a web application writted in Laravel that allows you to work easily in a team, since at all times users who are in a specific project will be able to see the tasks that have been assigned to other users, to be able to request the creation of new functionalities, to modify the state in which they are, to delete those that have been made and create new functionalities
+To Do List is a web application written in Laravel that allows you to work easily in a team, since at all times users who are in a specific project will be able to see the tasks that have been assigned to other users, to be able to request the creation of new functionalities, to modify the state in which they are, to delete those that have been made and create new functionalities
 
 ## Requirements
 * PHP ^7.3|^8.0
