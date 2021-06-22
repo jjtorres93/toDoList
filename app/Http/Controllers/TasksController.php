@@ -14,10 +14,7 @@ class TasksController extends Controller
      */
     public function index()
     {
-        $tasks = Task::lastest()->paginate(5);
-
-        return view('tasks.index', compact('data'))
-            ->with('i', (request()->input('')));
+        return view('tasks.index', ['tasks' => Task::all()]);
     }
 
     /**
