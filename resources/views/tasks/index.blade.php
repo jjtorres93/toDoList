@@ -7,6 +7,8 @@
   <title>Index</title>
 </head>
 <body>
-  <?php Debugbar::info($tasks) ?>
+  @foreach ($tasks as $task)
+    <div>{{$task}}</div>
+  @endforeach
 </body>
 </html>
