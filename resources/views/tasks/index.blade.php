@@ -7,6 +7,6 @@
   <title>Index</title>
 </head>
 <body>
-  <?php  ?>
+  <?php Debugbar::info($tasks) ?>
 </body>
 </html>

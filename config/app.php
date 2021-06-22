@@ -2,6 +2,15 @@
 
 return [
 
+    //debugar plugin configuration
+    'providers' => [
+        Barryvdh\Debugbar\ServiceProvider::class,
+    ],
+    
+    'aliases' => [
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
