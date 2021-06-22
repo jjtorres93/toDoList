@@ -1,8 +1,7 @@
 #!/bin/bash
 git status
 
-read -p "Do you want to push this changes? [y]/n: " anwser
-
+read -p "Do you want to push this changes? [y]/n: " -e -i "y" anwser
 
 if [ $anwser == "y" ]
 then
