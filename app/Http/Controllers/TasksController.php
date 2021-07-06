@@ -6,6 +6,8 @@ use App\Models\Task;
 use Debugbar;
 use Illuminate\Http\Request;
 
+use function PHPUnit\Framework\isEmpty;
+
 class TasksController extends Controller
 {
     /**
@@ -15,7 +17,6 @@ class TasksController extends Controller
      */
     public function index()
     {
-        $object = new Task();
         return view('tasks.index', ['tasks' => Task::all()]);
     }
 

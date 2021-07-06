@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    @if (!empty($tasks))
+    @if (count($tasks) !== 0)
         @foreach ($tasks as $task)
             <div>{{ $task }}</div>
         @endforeach
