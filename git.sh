@@ -7,7 +7,7 @@ if [ $anwser == "y" ]
 then
   git add .
   read -p "Write the commit message: " message
-  git commit -m "$message"
+  git commit -m "${message}"
   read -p "Write the git branch: " branch
   git push origin $branch
 fi
