@@ -16,7 +16,6 @@ class TasksController extends Controller
     public function index()
     {
         $object = new Task();
-        Debugbar::info($object);
         return view('tasks.index', ['tasks' => Task::all()]);
     }
 
