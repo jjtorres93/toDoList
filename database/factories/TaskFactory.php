@@ -31,10 +31,10 @@ class TaskFactory extends Factory
                     'review',
                 ]
             ),
-            'assigned' => $this->faker,
+            'assigned' => $this->faker->numberBetween(1, 99),
             'title' => $this->faker->sentence(),
             'description' => $this->faker->paragraph(),
-            'created_at' => $this->faker,
+            'created_at' => $this->faker->time(),
         ];
     }
 }
